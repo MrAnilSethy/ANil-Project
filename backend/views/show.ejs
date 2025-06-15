@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View in Detail</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        h1{
+    color:#1da1f2;
+    text-align: center;
+}
+.content{
+    background-color:  #6c5fb1;
+}
+.user{
+    font-style: italic;
+    color: rgb(41, 24, 65);
+}
+body{
+    background-color: lightblue;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to Twitter</h1>
+    <div class="content">
+        <h6 class="id">id: <%=data.id%></h6>
+        <h3 class="user">username: @<%=data.username%></h3>
+        <h4 class="about">about: <%=data.about%></h4>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home.twits.com</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Welcome to Twitter</h1>
+    <%for(data of dataBase){%>
+        <div class="content">
+            <h6 class="id">id: <%=data.id%></h6>
+            <h3 class="user">username: @<%=data.username%></h3>
+            <h4 class="about">about: <%=data.about%></h4>
+            <a href="http://localhost:8080/twits/<%=data.id%>">See in Detail</a>
+        </div>
+    <%}%>
+     <a href="http://localhost:8080/twits/new"><b>write new twits</b></a>
+</body>
+</html>

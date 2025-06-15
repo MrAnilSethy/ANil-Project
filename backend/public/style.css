@@ -1,0 +1,14 @@
+h1{
+    color:#1da1f2;
+    text-align: center;
+}
+.content{
+    background-color:  #6c5fb1;
+}
+.user{
+    font-style: italic;
+    color: rgb(41, 24, 65);
+}
+body{
+    background-color: lightblue;
+}

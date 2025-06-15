@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit your Post</title>
+</head>
+<body>
+        <h6>id: <%=data.id%></h6>
+        <h3>data.username</h3>
+        <form method="post" action="/twits/:id?_method=PATCH">
+            <textarea name="about" >data.about</textarea>
+        </form>
+        
+56
+</body>
+</html>
